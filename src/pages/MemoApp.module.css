@@ -1,0 +1,80 @@
+/* MemoApp.module.css */
+
+.memoAppContainer {
+    max-width: 500px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    padding: 32px 24px;
+    font-family: 'Pretendard', 'Noto Sans KR', Arial, sans-serif;
+    color: #222;
+}
+
+.memoAppTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.inputTitle,
+.inputContent {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background: #f8fafc;
+    color: #222;
+}
+
+.addButton {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 24px;
+    transition: background 0.2s;
+}
+
+.addButton:hover {
+    background: #5a67d8;
+}
+
+.memoList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.memoItem {
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #f9fafb;
+}
+
+.memoItemTitle {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.memoItemContent {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.memoItemDate {
+    font-size: 0.85rem;
+    color: #888;
+}

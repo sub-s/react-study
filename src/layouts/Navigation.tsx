@@ -13,6 +13,9 @@ const Navigation: React.FC = () => {
         <li>
           <a href="/about">소개</a>
         </li>
+        <li>
+          <a href="/memoapp">memoapp</a>
+        </li>
       </ul>
     </nav>
   );
